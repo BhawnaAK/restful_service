@@ -37,6 +37,10 @@ public class User {
 		this.birthDate = birthDate;
 	}
 
+	protected User() {
+		
+	}
+	
 	public Integer getId() {
 		return id;
 	}
